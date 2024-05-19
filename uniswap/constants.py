@@ -16,6 +16,7 @@ WETH9_ADDRESS = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
 
 # see: https://chainid.network/chains/
 _netid_to_name = {
+    8453: "base",
     1: "mainnet",
     3: "ropsten",
     4: "rinkeby",
@@ -31,8 +32,7 @@ _netid_to_name = {
     421611: "arbitrum_testnet",
     1666600000: "harmony_mainnet",
     1666700000: "harmony_testnet",
-    11155111: "sepolia",
-    8453: "base"
+    11155111: "sepolia"
 }
 
 _factory_contract_addresses_v1 = {
@@ -41,6 +41,7 @@ _factory_contract_addresses_v1 = {
     "rinkeby": "0xf5D915570BC477f9B8D6C0E980aA81757A3AaC36",
     "kovan": "0xD3E51Ef092B2845f10401a0159B2B96e8B6c3D30",
     "görli": "0x6Ce570d02D73d4c384b46135E87f8C592A8c86dA",
+    "base": "0x33128a8fC17869897dcE68Ed026d694621f6FDfD"
 }
 
 
