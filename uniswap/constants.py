@@ -31,7 +31,8 @@ _netid_to_name = {
     421611: "arbitrum_testnet",
     1666600000: "harmony_mainnet",
     1666700000: "harmony_testnet",
-    11155111: "sepolia"
+    11155111: "sepolia",
+    8453: "base"
 }
 
 _factory_contract_addresses_v1 = {
