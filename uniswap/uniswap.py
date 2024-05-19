@@ -134,6 +134,7 @@ class Uniswap:
             self.w3.middleware_onion.inject(_get_eth_simple_cache_middleware(), layer=0)
 
         self.netid = int(self.w3.net.version)
+        _netid_to_name[8453] = "base"
         if self.netid in _netid_to_name:
             self.netname = _netid_to_name[self.netid]
         else:
